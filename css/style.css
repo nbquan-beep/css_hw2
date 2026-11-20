@@ -57,3 +57,24 @@ p {
 header img {
   width: 10%;
 }
+
+/* Bước 6: lưới hai cột, mỗi cột 40% */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Bước 7: ảnh trong lưới rộng 100% */
+.grid img {
+  width: 100%;
+}
+
+/* Bước 9: flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
