@@ -16,6 +16,8 @@ header {
 /* Bước 5: nav - background-color */
 nav {
   background-color: #e8eef6;
+   display: inline-block;
+  width: 80%;
 }
 
 /* Chữ link trong nav (để đủ tương phản) */
@@ -35,11 +37,11 @@ footer {
 }
 
 /* Bước 8: li - display, width */
-li {
+/* li {
   display: inline-block;
   width: 200px;
 }
-
+*/
 /* Bước 9: h1 - text-align, font-family, color */
 h1 {
   text-align: center;
@@ -50,4 +52,8 @@ h1 {
 /* Bước 10: p - line-height */
 p {
   line-height: 1.6;
+}
+
+header img {
+  width: 10%;
 }
