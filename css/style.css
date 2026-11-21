@@ -37,11 +37,11 @@ footer {
 }
 
 /* Bước 8: li - display, width */
-* li {
+li {
   display: inline-block;
   width: 200px;
 }
-*/
+
 /* Bước 9: h1 - text-align, font-family, color */
 h1 {
   text-align: center;
