@@ -37,7 +37,7 @@ footer {
 }
 
 /* Bước 8: li - display, width */
-/* li {
+* li {
   display: inline-block;
   width: 200px;
 }
@@ -77,4 +77,8 @@ header img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+nav img {
+  width: 10%;
 }
